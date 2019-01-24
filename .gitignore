@@ -1,0 +1,27 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+!web/app/plugins/fusion-builder
+!web/app/plugins/fusion-core
+!web/app/plugins/gravityforms
+!web/app/plugins/LayerSlider
+web/app/mu-plugins/*/
+!web/app/wp-content/themes/Avada
+!web/app/wp-content/themes/Avada-Child-Theme
+
+# WordPress
+web/easehub
+web/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep
